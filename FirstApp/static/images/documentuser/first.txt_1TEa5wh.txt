@@ -1,0 +1,24 @@
+1.basic html tags
+<heading><paragraph><body><title><img src>
+2.block level elements
+h tags,semantic tags,paragraph,div
+3.inline elements
+1.img,span,form controllers,nav bars
+4.nav bar(a href)
+in bound
+out bound
+mailto
+tel
+types of css
+in the tag
+inner
+outer
+selector{property:value}
+1.classselector(.)
+2.idselector(#)
+3.universal selector(*)
+4.descendent selector
+  .parent h2 {property:value}
+5.childcombiner
+   .parent>h2{property:value}
+6.Tags(body)

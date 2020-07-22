@@ -1,0 +1,63 @@
+git is a tool used to manage your versions of project
+github is an distributed version control system
+github works on git
+git--scm.com
+to download select download option
+1.On desktop open gitbash here
+2.After that if u want to make any settings like font size or color right click and then select options
+3.to check the version of git we are using  in our computer the command is
+-->git --version
+4.Before doing anything git has to know ho you are i.e.name,mailid
+for that command is
+-->git config --global user.name "your name"
+5.To know your name
+-->git config user.name
+6.same syntax for mail id
+-->git config user.email
+7.Now we are going to create a working directory which is nothing but our project folder
+for that create a folder on desktop
+8.open that folder and right click then open git bash here
+9.Now check is there any files in your folder or not 
+-->ls
+10.Repository is the place where you will save the project versions
+11.In your entire project lifespan u have to run this command only once to initialise the new repository and it will also create a folder called .git(it in invisible by default)
+-->git init 
+12.To open hidden files in git u have to press ctrl + h
+13.To open all the fils including hideen files 
+--> ls -a
+14.Now create a text file in that folder
+--> touch file.txt
+15.To display the content in the file.
+--> cat file.txt
+16.To add files from working directory to staging area
+--> git add filename
+17.If u have any space in filename u have to use /
+18.To add all the files to staging area
+--> git add.
+19.To check the status of the git
+--> git status
+20.To remove file from staging area
+--> git rm --cached filename
+21.If u type git status if the file is in green color then it is added to staging area
+22.git commit command help us to save all the files that are present in the staging area to repository as snapshot that will contain 40 char SHA key and a commit messaga
+--> git commit -m "message"
+23.git log command u will get the commit messages in reverse chronological order and u will get sha key and when the commit is made and who made this commit and the mail id,username associated withit.
+-->git log
+24.to get the shorter commit messages which is nothing about(7 characters of sha key)
+-->git log --oneline
+25.to get the actual order of commit messages in oneline
+-->  git log --oneline --reverse
+26.to get in to the particular commit the command is copy the first 7 characters of SHA key
+--> git checkout and paste that
+27.If u want to get back
+--> git checkout master
+28.Open your github account create a repository
+29.Create a remote
+30.Tocheck how many remotes to your repository
+-->git remote
+31.To add a remote to your repository
+-->git remote add remotename(variable) and paste the link
+32.now we have to push the changes that we had made in local repository to remote
+--> git push remotename branchname(by default it will be master)
+33.Create a readme file(to give better explanation those who want to know about ur future)
+34.md stands for markdown
